@@ -8,11 +8,11 @@ router.get('/', function(req, res, next) {
 
 /* GET about page. */
 router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About Me' });
+  res.render('index', {title: 'About Me'});
 });
 
-/* GET products page. */
-router.get('/products', function(req, res, next) {
+/* GET project page. */
+router.get('/project', function(req, res, next) {
   res.render('index', { title: 'Products' });
 });
 

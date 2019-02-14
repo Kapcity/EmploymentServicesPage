@@ -1,21 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><%= title %></title>
-  <!-- CSS Section-->
-  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="Content/app.css">
-</head>
-<body>
-  <h1>Welcome!</h1>
+
+<% include ./partials/headers.ejs %>
   
-  <!-- JavaScript Section-->
-  <script src="jquery/dist/jquery.min.js"></script>
-  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="Scripts/app.js"></script>
-</body>
-</html>
+   
+
+   <!-- <%if(title == "Home") { %>
+    <% include ./pages/home.ejs %> <% 
+    } %>
+
+   <%if(title == "About") { %>
+    <% include ./pages/about.ejs %> <% 
+    } %> 
+
+  
+   <%if(title == "Project") { %>
+    <% include ./Pages/projects.ejs %> <% 
+    } %>
+
+  
+   <%if(title == "Service") { %>
+    <% include ./Pages/services.ejs %> <% 
+    } %>
+
+  
+  
+   <%if(title == "About") { %>
+    <% include ./Pages/about.ejs %> <% 
+    } %>
+     </div> -->
+
+<% include ./partials/footer.ejs %>
+
+  
+  
