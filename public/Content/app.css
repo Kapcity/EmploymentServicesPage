@@ -1,12 +1,55 @@
-/* custom css goes here*/
+/* custom css goes here
+Name: Kapilan Santhiramohan
+Date: Feb, 15,2019
+*/
 
 
+/*sets background image which was taken off google*/
+.body
+{
+    background-image: url("https://wallpapermemory.com/uploads/718/forest-background-hd-1920x1200-348250.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+
+/*sets background colour for the area where the content will show up*/
+.jumbotrons
+{
+    background-color:#b3dbff
+
+}
+/*pushes image on home to the right for asthetics*/
+.right
+{
+   margin-left: auto;
+   margin-right: auto;
+   float: right;
+}
+
+/*Table design in service page*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 2px solid #141313;
+    text-align:center;
+    padding: 10px;
+  }
+  tr:nth-child(odd){
+      background-color: #7B888D
+  }
+  tr:nth-child(even) {
+    background-color: #DBE1E3;
+  }
 
 
 /* Contact page css */
 
-.contact_form{
+.form{
     padding:30px;
 
 }
@@ -35,4 +78,9 @@
 .contact_form input[type="submit"]{
     padding: 10p;
 
+}
+
+.form_size
+{
+    width: 75%
 }

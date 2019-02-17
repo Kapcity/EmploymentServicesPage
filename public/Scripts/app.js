@@ -1,5 +1,10 @@
 /* Custom JavaScript geos Here*/
 // IIFE -- Immediately Invoked Fuction Expression
+
+/*  
+Name: Kapilan Santhiramohan
+Date: Feb, 14, 2015 
+*/
 (function(){
 
     function Start() {
@@ -9,3 +14,10 @@
     window.addEventListener("load", Start);
 
 })();
+
+
+document.getElementById("btn_submit").onclick = function() {
+   location.href = "/";
+};
+
+

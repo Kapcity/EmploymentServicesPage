@@ -1,34 +1,39 @@
-
+<!-- 
+Name: Kapilan Santhiramohan
+Date: Feb, 15, 2019
+index where pages will be loaded
+ -->
 <% include ./partials/headers.ejs %>
   
    
+<%if(title == "Home") { %>
+<% include ./pages/home.ejs %> 
+    <% } %>
 
-   <!-- <%if(title == "Home") { %>
-    <% include ./pages/home.ejs %> <% 
-    } %>
-
-   <%if(title == "About") { %>
+   <%if(title == "About Me") { %>
     <% include ./pages/about.ejs %> <% 
     } %> 
 
   
-   <%if(title == "Project") { %>
-    <% include ./Pages/projects.ejs %> <% 
-    } %>
+   <%if(title == "Projects") { %>
+    <% include ./Pages/projects.ejs %> 
+    <% } %>
 
   
-   <%if(title == "Service") { %>
+   <%if(title == "Services") { %>
     <% include ./Pages/services.ejs %> <% 
     } %>
 
   
   
-   <%if(title == "About") { %>
-    <% include ./Pages/about.ejs %> <% 
+   <%if(title == "Contact") { %>
+    <% include ./Pages/contacts.ejs %> <% 
     } %>
-     </div> -->
+    
+   
 
 <% include ./partials/footer.ejs %>
+
 
   
   

@@ -1,43 +1,77 @@
-
-<% include ./partials/headers.ejs %>
-  
+<!-- 
+Name: Kapilan Santhiramohan
+Date: Feb, 15, 2019
+ -->
   <!-- content -->
-
-  <h3>Contact Us:</h3>
-
-  <div>
-    <form class="contact_form">
-    <div class="form_input">
-    <label>First Name:</label>
-    <input type="text" name="first">
+<div class="container">
+  <br>
+  <div class="jumbotron" id="bodycolour">
+  <!--Gives viewer the option to call-->
+       
+            <h1>Contact</h1>
+  <br>
+  <h4>Call:</h4>
+  <p>Mobile: 647-406-2773 <br> Home: 416-754-2851 <br> Email: ksanthi1@my.centennialcollege.ca</p>
+  <br>
+  <h4>Email:</h4> 
+  <!--Gives viewer the option to email when they fill out the form which should be redirected to email address at a later point in time-->
+  <div class="form_size">
+  <form class="form">
+  <div class="row">
+    <div class="col-sm-3">
+    <label for="first"  class="col-form-label" aria-hidden="true"> First Name: </label> 
     </div>
-
-     <div class="form_input">
-    <label>Last Name:</label>
-    <input type="text" name="last">
+    <div class="col-sm-6">
+    <input type="text" class="form-control form-control-sm" required="required" id ="txt_first" >
     </div>
-
-     <div class="form_input">
-    <label>Contact Number:</label>
-    <input type="number" name="number">
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+     <label for="last" class="col-form-label">Last Name: </label>
     </div>
-
-     <div class="form_input">
-    <label>Email Address:</label>
-    <input type="email" name="email">
+    <div class="col-sm-6">
+      <input type="text" class="form-control form-control-sm" required="required" id = "txt_last">
     </div>
-
-     <div class="form_input">
-    <label>Message: </label>
-    <textarea name="message"></textarea>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+    <label for="email" class="col-form-label">Email: </label>
     </div>
-    <input class="btn" type="submit" value="submit" name="btn_submit">
-    <input class="btn" type="reset" value="reset" name="btn_reset">
-
-    </form>
+    <div class="col-sm-6">
+      
+       <input type="email" class="form-control form-control-sm" required="required" id="txt_email">
+      
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+    <label for="number" class="col-form-label">Phone Number: </label> 
+    </div>
+    <div class="col-sm-6">
+    <input type="number" class="form-control form-control-sm" required="required" id ="txt_number" >
+    </div>
   </div>
 
- <% include ./partials/footer.ejs %>
+   <div class="row">
+     <div class="col-sm-3">
+      <label for="txt_message" class="col-form-label">Message: </label>
+     </div>
+    <div class="col-sm-6">
+    <textarea class="form-control" id="txt_message" required="required" rows="3"></textarea>
+    </div>
+  </div>
+  <br>
+
+
+    <!--Standard form submit and reset buttons with a cell infornt to centralize buttons with form -->
+    <button class="btn btn-primary" id = "btn_submit" type="submit" >Submit </button>
+        <button class="btn btn-primary" type="reset" >Reset </button>
+</form>
+</div>
+</div>
+</div>
+</div>
+
 
   
   
