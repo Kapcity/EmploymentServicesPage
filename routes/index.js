@@ -39,4 +39,9 @@ router.get('/contact', function(req, res, next) {
   res.render('index', { title: 'Contact' });
 });
 
+/* GET education page. */
+router.get('/Education', function(req, res, next) {
+  res.render('index', { title: 'Education' });
+});
+
 module.exports = router;
